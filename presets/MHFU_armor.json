@@ -1,0 +1,51 @@
+{
+    "Default": {},
+    "MHFU": {
+        "body_": {
+            "Hip": "Bone.001",
+            "Waist": "Bone.002",
+            "Bust": "Bone.003",
+            "L_Clavicle": "Bone.004",
+            "L_Shoulder": "Bone.005",
+            "R_Clavicle": "Bone.006",
+            "R_Shoulder": "Bone.007",
+            "Neck": "Bone.008",
+            "Head": "Bone.009"
+        },
+        "legs_": {
+            "Hip": "Bone.002",
+            "L_Leg": "Bone.003",
+            "L_Knee": "Bone.004",
+            "L_Foot": "Bone.005",
+            "R_Leg": "Bone.006",
+            "R_Knee": "Bone.007",
+            "R_Foot": "Bone.008",
+            "Waist": "Bone.009",
+            "Bust": "Bone.010"
+        },
+        "arms_": {
+            "Bust": "Bone.001",
+            "L_Clavicle": "Bone.002",
+            "L_Shoulder": "Bone.003",
+            "L_Elbow": "Bone.004",
+            "L_Hand": "Bone.005",
+            "R_Clavicle": "Bone.006",
+            "R_Shoulder": "Bone.007",
+            "R_Elbow": "Bone.008",
+            "R_Hand": "Bone.009"
+        },
+        "head_": {
+            "Bust": "Bone.001",
+            "Neck": "Bone.002",
+            "Head": "Bone.003"
+        },
+        "waist_": {
+            "Hip": "Bone.001",
+            "Waist": "Bone.002",
+            "L_Leg": "Bone.003",
+            "L_Knee": "Bone.004",
+            "R_Leg": "Bone.005",
+            "R_Knee": "Bone.006"
+        }
+    }
+}
