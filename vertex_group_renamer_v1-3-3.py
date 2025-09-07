@@ -57,14 +57,17 @@ def initialize_presets(context):
     presets = load_presets()
     if not presets:
         presets["Default"] = {}
+
     # Initialize prefix expand states
-    prefix_expand_states.clear()
     current_preset = context.scene.vgr_props.current_preset
     if current_preset not in presets:
         context.scene.vgr_props.current_preset = "Default"
         current_preset = "Default"
+
     for prefix in presets.get(current_preset, {}):
-        prefix_expand_states[prefix] = False
+        if prefix not in prefix_expand_states:
+            prefix_expand_states[prefix] = False
+
     # Register dynamic properties
     register_dynamic_properties(context)
 
